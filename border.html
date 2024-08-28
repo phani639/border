@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
+    <style>
+        img {
+            border: 5px groove blue;
+        }
+        .pixel-1 {
+          border-top-right-radius: 100px;
+          border-bottom-left-radius: 100px;  
+        }
+        .pixel-2 {
+          border-top-left-radius: 100px;
+          border-bottom-right-radius: 100px;  
+        }
+        .pixel-3 {
+          border-bottom-right-radius: 100px;
+          border-top-left-radius: 100px;  
+        }
+        .pixel-4 {
+          border-bottom-left-radius: 100px;
+          border-top-right-radius: 100px;  
+        }
+
+        .n-1 {
+            border-bottom-left-radius: 100px;
+            border-top-right-radius: 100px;
+            border: 4px solid red;    
+        }
+        .n-2 {
+            border-bottom-right-radius: 100px;
+            border-top-left-radius: 100px;
+            border: 4px solid red;  
+        }
+        .n-3 {
+            border-top-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+            border: 4px solid red;
+        }
+        .n-4 {
+            border-top-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+            border: 4px solid red;   
+        }
+        .top {
+            position: relative;
+            right: 200px;
+        }
+        .container {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div>
+        <div>
+            <img class="pixel-1" src="men.jpg" width="200px" height="200px">
+            <img class="pixel-2" src="women.jpg" width="200px" height="200px">
+           </div> 
+           <div>
+            <img class="pixel-3" src="m kid.jpg" width="200px" height="200px">
+            <img class="pixel-4" src="w kid.jpg" width="200px" height="200px">
+           </div>
+       </div>
+        <div>
+            <div>
+                <img src="d1.jpg" width="200px" height="200px" class="n-1">
+                <img src="d2.jpg" width="200px" height="200px" class="n-2">
+            </div> 
+            <div>
+                <img src="d3.jpg" width="200px" height="200px" class="n-3">
+                <img src="d4.jpg" width="200px" height="200px" class="n-4">
+            </div>
+        </div>
+   </div>
+</body>
+</html>
